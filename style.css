@@ -1,18 +1,15 @@
-*{
-    margin: 1%;
-    
-}
+
 .section1{
-width: 1100px;
-height: 850px;
+height: 685px;
 background: rgba(229, 84, 115, 0.10);
 display: flex;
 justify-content: center;
-padding: 130px
+padding: 130px;
+margin-top: 0%;
 
 }
 .section1-text{
-    padding-top: 130px;
+padding-top: 130px
 }
 h1{
 font-family: 'Open Sans', sans-serif;
@@ -25,26 +22,39 @@ background: #E55473;
 color:#fff ;
 padding: 12px 27px ;
 border-color: white;
-border-radius: 8px;
+border-radius: 2px;
 font-size: medium;
 }
-.section2{
-width: 1100;
-height: 622;
+.hot-deal-section{
+
+height: 450;
 background: rgba(229, 84, 115, 0.05);
 display: flex;
 justify-content: center;
-padding: 30px 50px 0px;
-margin-top: 50px;
-margin-bottom: 50px;
+gap: 100px;
+padding-top: 100px;
+margin-top: 85px;
+position: relative;
 
 }
+
+
 span{
     color: red;
 }
 
-.section2-text{
-    padding-top: 120px;
+.hot-deal-section-text{
+    padding-top: 115px;
+}
+.section-texts-button2{
+background: #E55473;
+color:#fff ;
+margin-left: 12%;
+border-color: white;
+border-radius: 2px;
+font-size: medium;
+position: absolute;
+padding: 12px 27px ;
 }
 .section5-heading{
     text-align: center;
@@ -70,6 +80,7 @@ span{
     padding-top: 150px;
     height: 450px;
     background-repeat: no-repeat;
+    margin-bottom: 30px;
     
 }
 footer{
@@ -79,11 +90,48 @@ footer{
     height: 250px;
     justify-items: center;
     padding-top:125px ;
-    margin-top: 70px;
+    margin-top: 20px;
+
 }
 .flower{
     margin-right:0%;
     color: #E55473;
+}
+
+.featured-flower-text{
+    text-align: center;
+    padding-top: 125px;
+    
+    
+}
+.featured-flower-images{
+    display: flex;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.featured-flower-image1{
+    width: 300px;
+    height: 280px;
+    border-radius: 100px 100px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.1);
+    padding-top: 60px;
+}
+.featured-flower-image2{
+    width: 300px;
+    height: 280px;
+    border-radius: 100px 100px 0px 0px;
+    padding-top: 60px;
+    background-color: rgba(5, 151, 160, 0.1);  
+
+}
+.featured-flower-image3{
+    width: 300px;
+    height: 280px;
+    border-radius: 100px 100px 0px 0px;
+    padding-top: 60px;
+    background-color: rgba(71, 125, 17, 0.1);
+
 }
 
 
